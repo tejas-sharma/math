@@ -12,3 +12,13 @@ TEST_CASE("GCD is accurately computed", "[gcd]")
   REQUIRE(ts::gcd(5,0) == 5);
   REQUIRE(ts::gcd(0,0) == 0);
 }
+
+TEST_CASE("Exponents are accurately computed", "[raise]")
+{
+  REQUIRE(ts::raise(5,1) == 5);
+  REQUIRE(ts::raise(5,0) == 1);
+  REQUIRE(ts::raise(5,5) == 3125);
+  REQUIRE(ts::raise(5,4) == 625);
+  REQUIRE(ts::raise(-5,3) == -125);
+  REQUIRE(ts::raise(-5,4) == 625);
+}
