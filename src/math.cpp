@@ -10,8 +10,7 @@ namespace ts
       auto remainder = a % b;
       a = b;
       b = remainder;
-      remainder = a % b;
     }
-    return b;
+    return a;
   }
 }

@@ -1,4 +1,6 @@
-#include <set>
+#include <vector>
+#include <memory>
+
 namespace ts 
 {
   int gcd(int a, int b);
