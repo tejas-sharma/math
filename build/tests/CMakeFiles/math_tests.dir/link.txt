@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/math_tests.dir/math_tests.cpp.o  -o math_tests -Wl,-rpath,/Users/tsharma/src/math/build -Wl,-rpath,/users/tsharma/src/random/build ../libmath.dylib /users/tsharma/src/random/build/librandom_utils.dylib 
